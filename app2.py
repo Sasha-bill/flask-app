@@ -5,11 +5,6 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
-231212 1231221
-213
-123
-122
-13
-312
-32
-131
+@app.route("/new")
+def hello():
+    return "NEw"
